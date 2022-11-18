@@ -16,3 +16,17 @@ and option B requires hand crafting match rules to ensure you only intercept the
 With BOR the only step required to mark a request for interception is a right click on the request and selecting the `Create Breakpoint For Request` context menu!
 
 # UI Examples
+
+## Context Menu
+![Context Menu](/images/contextMenu.png?raw=true)
+
+
+## Breakpoint List
+![Context Menu](/images/BreakpointList.png?raw=true)
+
+## Potential Next Features
+- [ ] Other interception breakpoint format such as regex, headers, etc
+- [ ] Breakpoints for Responses
+
+
+### Thanks to Weedon for the suggestion to make this!
