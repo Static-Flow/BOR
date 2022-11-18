@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.staticflow.BorExtensionUI">
+  <grid id="27dc6" binding="mainPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="500"/>
+    </constraints>
+    <properties>
+      <minimumSize width="800" height="500"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6a7dc" class="javax.swing.JButton" binding="deleteSelectedBreakpointsButton" custom-create="true" default-binding="true">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Delete Selected Breakpoints"/>
+        </properties>
+      </component>
+      <scrollpane id="cb6b2" binding="breakpointScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2e9d1" class="javax.swing.JList" binding="breakpointList" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
